@@ -294,7 +294,7 @@ body {
         }
 
         .content {
-            @apply flex flex-col justify-between items-center container mx-auto relative max-w-full overflow-visible;
+            @apply flex flex-col justify-between items-center container mx-auto relative max-w-full  overflow-hidden;
 
             .arrows {
                 @apply flex items-center justify-between w-full relative;
@@ -321,7 +321,7 @@ body {
             @apply flex max-md:flex-col gap-10 md:items-center justify-between w-full px-4 max-w-full;
 
             .info {
-                @apply space-y-4 translate-y-15;
+                @apply space-y-4 lg:translate-y-20;
 
                 #title {
                     @apply font-modern-negra md:text-6xl text-3xl  text-yellow max-w-40;

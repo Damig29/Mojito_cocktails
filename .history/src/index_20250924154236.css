@@ -275,7 +275,7 @@ body {
     }
 
     #menu {
-        @apply relative w-full md:mt-30 mt-0 2xl:px-0 px-5 py-20 radial-gradient overflow-hidden;
+        @apply relative w-full md:mt-30 mt-0 2xl:px-0 px-5 py-20 radial-gradient overflow-x-hidden ;
 
         #m-left-leaf {
             @apply object-contain absolute -bottom-20 left-0 md:w-fit w-1/3;
@@ -294,7 +294,7 @@ body {
         }
 
         .content {
-            @apply flex flex-col justify-between items-center container mx-auto relative max-w-full overflow-visible;
+            @apply flex flex-col justify-between items-center container mx-auto relative max-w-full  overflow-hidden;
 
             .arrows {
                 @apply flex items-center justify-between w-full relative;
@@ -313,7 +313,7 @@ body {
             @apply flex-center mt-10;
 
             img {
-                @apply object-contain max-h-full w-auto;
+                @apply object-contain w max-h-full w-auto;
             }
         }
 
@@ -321,10 +321,10 @@ body {
             @apply flex max-md:flex-col gap-10 md:items-center justify-between w-full px-4 max-w-full;
 
             .info {
-                @apply space-y-4 translate-y-15;
+                @apply space-y-4 lg:translate-y-20;
 
                 #title {
-                    @apply font-modern-negra md:text-6xl text-3xl  text-yellow max-w-40;
+                    @apply font-modern-negra md:text-6xl text-3xl text-yellow max-w-40;
                 }
             }
 
