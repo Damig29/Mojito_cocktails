@@ -257,7 +257,7 @@ body {
 
         .masked-container {
             h2 {
-                @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-32;
+                @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-12 md:mt-32;
             }
 
             div {
@@ -324,7 +324,7 @@ body {
                 @apply space-y-4 translate-y-15;
 
                 #title {
-                    @apply font-modern-negra md:text-6xl text-3xl  text-yellow max-w-40;
+                    @apply font-modern-negra md:text-6xl mb-4 text-3xl  text-yellow max-w-40;
                 }
             }
 
